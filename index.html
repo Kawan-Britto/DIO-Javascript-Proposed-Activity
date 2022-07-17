@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DIO atividades propostas</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assents/style.css" />
+  </head>
+  <body>
+    <div id="contadores">
+      <div id="contador1" class="contador">
+        <h2>Contador simples:</h2>
+        <button onclick="sub()">-</button>
+        <span id="number">0</span>
+        <button onclick="somar()">+</button>
+      </div>
+
+      <div id="contador1" class="contador">
+        <h2>Contador natural:</h2>
+        <button onclick="sub1()">-</button>
+        <span id="number1">0</span>
+        <button onclick="somar1()">+</button>
+      </div>
+
+      <div id="contador2" class="contador">
+        <h2>Contador natural<span>(Sem negativos):</span></h2>
+        <button onclick="sub2()">-</button>
+        <span id="number2">0</span>
+        <button onclick="somar2()">+</button>
+      </div>
+    </div>
+
+    <script src="assents/Js/contador-simples.js"></script>
+    <script src="assents/Js/contador-natural.js"></script>
+    <script src="assents/Js/contador-natural-colorido.js"></script>
+  </body>
+</html>
