@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assents/style.css" />
   </head>
   <body>
-    <div id="contadores">
+    <div id="contadores" class="flex">
       <div id="contador1" class="contador">
         <h2>Contador simples:</h2>
         <button onclick="sub()">-</button>
@@ -39,8 +39,21 @@
       </div>
     </div>
 
+    <div id="to-do-list" class="flex">
+      <form action="">
+        <label for="tarefa">Insira a tarefa:</label>
+        <input type="text" id="tarefa" value="" />
+      </form>
+      <button id="to_do_button">Go</button>
+      <div class="tarefas flex"></div>
+    </div>
+
+    <div class="area_de_testes">.</div>
+
     <script src="assents/Js/contador-simples.js"></script>
     <script src="assents/Js/contador-natural.js"></script>
     <script src="assents/Js/contador-natural-colorido.js"></script>
+    <script src="assents/Js/to-do-list.js"></script>
+    <script src="assents/Js/Teste.js"></script>
   </body>
 </html>

@@ -14,10 +14,13 @@ button {
   border: 1px solid rgb(36, 35, 35);
 }
 
-#contadores {
+.flex {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5rem 1.5rem;
 }
 .contador {
   display: flex;
@@ -29,4 +32,14 @@ button {
 #contador2 h2 {
   display: inline-flex;
   flex-direction: column;
+}
+
+.tarefas {
+  background-color: rgb(0, 140, 255);
+  padding: 1.5rem 3rem;
+}
+
+.area_de_testes {
+  margin: 5rem 2rem;
+  background-color: rgb(143, 236, 205);
 }
